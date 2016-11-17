@@ -1,0 +1,77 @@
+
+<style>
+#espc16program .filter {
+  padding: 10px;
+  background-color: #093479;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 1.2em;
+}
+#espc16program .filterstring {
+  margin-left: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+  height: 32px;
+  box-sizing: border-box;
+}
+#espc16program .filterbtn {
+  background: #F78F1E;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  text-decoration: none;
+  border: none;
+  font-size: 13px;
+  height: 32px;
+}
+#espc16program ul {
+  padding: 0;
+  margin: 0;
+}
+#espc16program li {
+  padding-left: 80px;
+  min-height: 70px;
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  background-color: #EEE;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+#espc16program .datetime {
+  position: absolute;
+  left: 0px;
+  top: 0;
+  bottom: 0;
+  background-color: #F78F1E;
+  color: white;
+  width: 70px;
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+#espc16program .day {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+#espc16program .title {
+  display: inline-block;
+  vertical-align: top;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+</style>
+
+<div id="espc16program">Loading...</div>
+
+<script src="/sites/espc2016/Shared%20Documents/typescriptpart.js"></script>
+<script>
+    (function() {
+        var container = document.getElementById("espc16program");
+        var scriptpart = new ESPC16.demo.ESPC16ScriptPart(container);
+        scriptpart.render();
+    })();
+</script>
