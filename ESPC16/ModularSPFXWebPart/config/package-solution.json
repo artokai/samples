@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "modular-task-dashboard-client-side-solution",
+    "id": "4ec1c475-f586-4a5b-8b3f-8ec0a3b17402",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/modular-task-dashboard.spapp"
+  }
+}
