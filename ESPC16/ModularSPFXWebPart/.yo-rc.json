@@ -1,0 +1,7 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "libraryName": "modular-task-dashboard",
+    "libraryId": "4ec1c475-f586-4a5b-8b3f-8ec0a3b17402",
+    "framework": "none"
+  }
+}

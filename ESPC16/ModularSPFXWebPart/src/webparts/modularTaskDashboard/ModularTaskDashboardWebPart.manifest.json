@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "2cfee502-8443-4732-86b5-36bca623c2f8",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "2cfee502-8443-4732-86b5-36bca623c2f8",
+    "group": { "default": "Under Development" },
+    "title": { "default": "ModularTaskDashboard" },
+    "description": { "default": "Modular Task Dashboard" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "ModularTaskDashboard"
+    }
+  }]
+}

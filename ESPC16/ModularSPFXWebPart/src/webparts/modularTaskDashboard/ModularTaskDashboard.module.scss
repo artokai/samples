@@ -1,0 +1,45 @@
+.modularTaskDashboard {
+
+  .categoryList {
+    font-family: Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+
+    margin: 0;
+    padding: 0;
+  }
+
+  .categoryItem {
+    position: relative;
+    margin: 0;
+    padding: 0 0 0 25px;
+    margin: 3px 0 3px 0;
+    list-style-type: none;
+  }
+
+  .statusIndicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 16px;
+    background-color: #CCC;
+  }
+
+  .statuscolor_0 { background-color: #CCC; }
+  .statuscolor_1 { background-color: #87D371; }
+  .statuscolor_2 { background-color: #FCD353; }
+  .statuscolor_3 { background-color: #C94347; }
+
+  .categoryTitle {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .statusText {
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
+}
