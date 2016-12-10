@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@microsoft/sp-build-web" : {
+      "version": "^0.8.1",
+      "dependencies": {
+        "typescript": {"version": "^2.1.4" }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "libraryName": "async-await-spfx",
+    "libraryId": "e10fb30e-6e0d-4db6-88bc-197189fb0582",
+    "framework": "none"
+  }
+}

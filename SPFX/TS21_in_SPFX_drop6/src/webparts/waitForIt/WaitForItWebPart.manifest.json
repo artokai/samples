@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "9a518b15-2b49-494e-86e1-a666dad14fe4",
+  "alias": "WaitForItWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "9a518b15-2b49-494e-86e1-a666dad14fe4",
+    "group": { "default": "Under Development" },
+    "title": { "default": "WaitForIt" },
+    "description": { "default": "Webpart demnstrating the new Async/Await in TS2.1" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "WaitForIt"
+    }
+  }]
+}

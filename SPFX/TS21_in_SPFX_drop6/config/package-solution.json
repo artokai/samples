@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "async-await-spfx-client-side-solution",
+    "id": "e10fb30e-6e0d-4db6-88bc-197189fb0582",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/async-await-spfx.spapp"
+  }
+}
